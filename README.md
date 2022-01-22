@@ -2,8 +2,6 @@
 
 This project was developed by [Seyda Nur DEMIR](https://github.com/seydanurdemir) (me) as a job application project for "Full Stack Developer" position of [DigiEggs](https://www.digieggs.com/) company.
 
----
-
 ## More About the Project
 
 You can follow these links for more about this project.
@@ -14,8 +12,6 @@ You can follow these links for more about this project.
 - [Backend Deployment](https://xxx.heroku.com/) on Heroku
 - [Backend Source Code](https://github.com/seydanurdemir/rick-and-morty-backend) on Github
 
----
-
 ## Built With
 
 - [Node.js](https://nodejs.org/)
@@ -23,8 +19,6 @@ You can follow these links for more about this project.
 - [Nodemon](https://nodemon.io/)
 - [Apollo Server](https://www.apollographql.com/docs/apollo-server/)
 - [GraphQL](https://graphql.org/)
-
----
 
 ## Running Locally
 
