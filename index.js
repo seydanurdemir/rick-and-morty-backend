@@ -51,7 +51,7 @@ const books = [
 
 const resolvers = {
     Query: {
-        books: () => books,
+        character: () => character,
     },
 };
 
