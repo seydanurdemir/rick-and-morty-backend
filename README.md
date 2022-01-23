@@ -7,7 +7,7 @@ This project was developed by [Seyda Nur DEMIR](https://github.com/seydanurdemir
 You can follow these links for more about this project.
 - [Project Requirements](https://digieggs.notion.site/Digieggs-Full-Stack-Assessment-90c4bdd1138b452eb3e6f182c14e8505) on Notion
 - [Project Design](https://www.figma.com/file/tj8fb05tixGzteV5kWKS7c/Rick-and-Morty---Digieggs-Assessment) on Figma
-- [Frontend Deployment](https://xxx.netlify.app/) on Netlify
+- [Frontend Deployment](https://focused-pare-b68dbf.netlify.app/) on Netlify
 - [Frontend Source Code](https://github.com/seydanurdemir/rick-and-morty-frontend) on Github
 - [Backend Deployment](https://xxx.heroku.com/) on Heroku
 - [Backend Source Code](https://github.com/seydanurdemir/rick-and-morty-backend) on Github
