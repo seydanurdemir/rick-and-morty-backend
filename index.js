@@ -41,13 +41,13 @@ type Location {
 const character = require('./ricky-and-morty.json');
 
 const resolvers = {
-    Query: {
-        character: () => character,
-    },
+  Query: {
+    character: () => character,
+  },
 };
 
 const server = new ApolloServer({ typeDefs, resolvers });
 
 server.listen().then(({ url }) => {
-    console.log(`🚀  Server ready at ${url}`);
+  console.log(`🚀  Server ready at ${url}`);
 });
