@@ -1,6 +1,6 @@
 # Rick and Morty (Backend)
 
-This project was developed by [Seyda Nur DEMIR](https://github.com/seydanurdemir) (me) as a job application project for "Full Stack Developer" position of [DigiEggs](https://www.digieggs.com/) company.
+Last Update : 23/01/2022
 
 ## More About the Project
 
