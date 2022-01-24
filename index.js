@@ -34,15 +34,40 @@ type Location {
   }
 
   type Query {
-    character: [Character]
+    characters: [Character]
+    charactersByPage(number: Int, pages: Int): [Character]
+    charactersByFilter(name: String): [Character]
   }
 `;
 
-const character = require('./ricky-and-morty.json');
+const characterList = require('./ricky-and-morty.json');
+
+function getCharactersByPage(args) {
+  let start = ((args.number - 1) * args.pages);
+  let end = (start + args.pages);
+
+  const sliced = characterList.slice(start, end);
+
+  return sliced;
+}
+
+function getCharactersByFilter(args) {
+  let name = args.name;
+
+  const filtered = characterList.filter(x => x.name.includes(name));
+
+  return filtered;
+}
 
 const resolvers = {
   Query: {
-    character: () => character,
+    characters: () => characterList,
+    charactersByPage(parent, args, context, info) {
+      return getCharactersByPage(args);
+    },
+    charactersByFilter(parent, args, context, info) {
+      return getCharactersByFilter(args);
+    },
   },
 };
 
